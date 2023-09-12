@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Student Desk Login Panel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <style>
+        .my-card {
+            width: 25%;
+            box-sizing: border-box;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 2px 2px 5px 2px #000f01;
+            background-color: white;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-image: linear-gradient(0deg, rgb(244, 215, 119), rgb(173, 173, 236)); */
+            /* background-image: url('https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?cs=srgb&dl=pexels-scott-webb-403575.jpg&fm=jpg'); */
+            background-image: url('https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?cs=srgb&dl=pexels-scott-webb-403575.jpg&fm=jpg');
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        .my-input {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .logo {
+            width: 200px;
+            display: block;
+            margin: auto;
+        }
+
+        .my-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(32, 172, 8);
+            color: white;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Roboto;
+        }
+
+        * {
+            font-family: Roboto;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="my-card">
+        <form>
+            <img class="logo" src="https://www.grapheine.com/wp-content/uploads/2021/06/Logo-TotalEnergies-2021-1.jpg"
+                alt="">
+
+            <h2 class="form-title">Student Desk Login</h2>
+
+            <label>Email Address</label>
+            <input class="my-input" type="email">
+
+            <label>Password</label>
+            <input class="my-input" type="password">
+
+            <button class="my-btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

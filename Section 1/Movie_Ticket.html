@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Form</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: gainsboro;
+        }
+
+        form {
+            font-size: 17px;
+        }
+
+        .box {
+            border: 4px solid rgb(0, 0, 0);
+            padding: 10px;
+            background-color: rgba(220, 220, 220, 0.959);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <h1>Movie Ticket Booking Form</h1>
+            <label>Full Name</label>
+            <input type="text" required>
+            <br>
+            <br>
+
+            <label>Email Id</label>
+            <input type="email" required>
+            <br>
+            <br>
+
+            <label>Contact no</label>
+            <input type="text" required>
+            <br>
+            <br>
+            <label>Movie</label>
+            <select>
+                <option>Gaddar 2</option>
+                <option>Dream Girl 2</option>
+                <option>OMG 2</option>
+            </select>
+            <br>
+            <br>
+            <label>Venue</label>
+            <select>
+                <option>PVR Saharganj</option>
+                <option>Wave Cinemas</option>
+                <option>INOX Umraao</option>
+            </select>
+            <br>
+            <br>
+            <label>Performance Dates</label>
+            <select>
+                <option>01-Sep-2023</option>
+                <option>02-Sep-2023</option>
+                <option>03-Sep-2023</option>
+                <option>04-Sep-2023</option>
+            </select>
+            <br>
+            <br>
+            <label>Performance Times</label>
+            <select>
+                <option>11:00 AM</option>
+                <option>2:30 PM</option>
+                <option>4:00 PM</option>
+                <option>6:30 PM</option>
+                <option>8:30 PM</option>
+            </select>
+            <br>
+            <br>
+            <label>Seat Selection</label>
+            <select>
+                <option>Normal</option>
+                <option>Classic</option>
+                <option>Standard</option>
+                <option>Platinum</option>
+                <option>Premium</option>
+            </select>
+            <br>
+            <br>
+            <label>Row Selection</label>
+            <select>
+                <option>A1-A10</option>
+                <option>B1-B10</option>
+                <option>C1-C10</option>
+                <option>D1-D10</option>
+                <option>E1-E10</option>
+                <option>F1-F10</option>
+                <option>G1-G10</option>
+            </select>
+            <br>
+            <br>
+            <label>Mode of Payment</label>
+            <select>
+                <option>UPI-Paytm</option>
+                <option>Net Banking</option>
+                <option>Bank Transfer</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox">
+            <label>Terms & Conditions</label>
+            <br>
+            <br>
+            <input type="checkbox">
+            <label>Contribute to BookASmile +2Rs</label>
+            <br>
+            <br>
+            <button>Proceed To Pay</button>
+        </form>
+    </div>
+</body>
+
+</html>

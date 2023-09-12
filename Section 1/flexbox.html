@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Flex box</title>
+
+    <style>
+        .child {
+            background-color: rgb(181, 148, 212);
+            border: 2px solid red;
+            padding: 50px;
+        }
+
+        .parent {
+            height: 90vh;
+            display: flex;
+            /* In Justify content Property "space around is used to adjust the space between each other of it." */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="child">
+            <h3>Child One</h3>
+        </div>
+
+        <div class="child">
+            <h3>Child One</h3>
+        </div>
+
+        <div class="child">
+            <h3>Child One</h3>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+
+<body>
+
+    <h1>Student Admission Form</h1>
+    <hr>
+    <form>
+        <label>Full Name</label>
+        <input type="text" required minlength="7" maxlength="10"> <br>
+        <br>
+        <label>Contact No</label>
+        <input type="number"> <br>
+        <br>
+        <label>Email</label>
+        <input type="email" required> <br>
+        <br>
+        <label>Address</label>
+        <input type="text number"><br>
+        <br>
+        <label>Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female <br>
+        <br>
+
+        <label>Address</label>
+        <textarea cols="30" rows="5"></textarea>
+        <br>
+        <br>
+
+        <label>Bikes</label>
+        <select>
+            <option>Kawasaki 300</option>
+            <option>Kawasaki Z900</option>
+            <option>Kawasaki ZX10R</option>
+            <option>Kawasaki H2R</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Laptop Brands</label>
+        <input type="text" list="Brands">
+        <datalist id="Brands">
+            <option>Dell</option>
+            <option>Asus</option>
+            <option>Lenevo</option>
+        </datalist>
+
+        <br>
+        <br>
+        <label>Date of Birth</label>
+        <input type="date">
+        <br>
+        <br>
+
+        <label>Upload images</label>
+        <input type="file">
+
+        <br>
+        <br>
+        <label>Enter Password</label>
+        <input type="password">
+        <br>
+        <br>
+
+        <details>
+            <summary>
+                Terms & Conditions
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et asperiores, aliquam nemo maxime quam id
+                illum delectus <mark>Dhruv Chaurasia </mark> odit consectetur sapiente!</p>
+        </details>
+
+        <input type="checkbox" required>
+        <label>Check to Submit</label>
+
+        <br>
+        <br>
+
+
+        <!-- Button -->
+        <button>Press here to submit the form</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using CSS Grid</title>
+
+    <style>
+        section {
+            border: 3px violet solid;
+            margin: 100px;
+            height: 70vh;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+        }
+
+        .section-img {
+            border: 3px solid greenyellow;
+            margin: auto;
+        }
+
+        .section-content {
+            border: 3px solid rgb(128, 223, 157);
+            margin: auto 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section>
+        <div class="section-img">
+            <img style="width: 100%" src="./website-development.jpg" alt="">
+        </div>
+        <div class="section-content">
+            <H1>Web Development</H1>
+            <h4>Hi There! A new batch of Web Development starts form September 01. Interesed students can inroll before stating of the batch.</h4>
+        </div>
+    </section>
+</body>
+
+</html>
